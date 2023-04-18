@@ -1,0 +1,48 @@
+\documentclass[a4paper,12pt]{article}
+
+% Config margin
+% \usepackage[margin=2cm]{geometry}
+\usepackage[top=2cm,bottom=2cm,left=3cm,right=3cm]{geometry} 
+
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+% Use "\\" or "\newline" to make a new line
+\noindent This is line 1\\ 
+This is line 2\\[1cm] 
+
+% Page layout for paragraph
+% To create the indent for the next paragraph:
+% Add empty line between 2 paragraph 
+% Use command "\par"
+% \blindtext\par
+% \blindtext\\[1cm]
+%Text formatting
+\textbf{This} is \textit{only} a \underline{random} text
+
+\begin{center}
+    This is centered text
+\end{center}
+
+\begin{flushright}
+    This text is aligned right 
+\end{flushright}
+
+\begin{flushleft}
+    This text is aligned left
+\end{flushleft}
+
+{\tiny tiny}\\
+{\scriptsize scriptsize}\\
+{\footnote footnote}\\
+{\normalsize normalsize}\\
+{\large large}\\
+{\Large Large}\\
+{\LARGE LARGE}\\
+{\huge huge}\\
+{\Huge Huge}\\[1cm]
+Thi is another\hspace{2cm} sample text\\
+Left\hfill Center\hfill Right\newpage
+Up\vfill Center\vfill Down
+\end{document}
