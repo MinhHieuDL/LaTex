@@ -1,0 +1,26 @@
+\documentclass[a4paper,12pt]{article}
+
+% Config margin
+% \usepackage[margin=2cm]{geometry}
+\usepackage[top=2cm,bottom=2cm,left=3cm,right=3cm]{geometry} 
+\usepackage{blindtext}
+
+\author{John Doe}
+\title{Our First Document}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Third Section}
+\blindtext[5]
+\subsection{First Subsection}
+\blindtext
+\section{First section}\label{sec:second}
+\blindtext
+\subsection{First Subsection}
+\blindtext
+\subsection{Second Subsection}
+\blindtext\\
+This has bee shown in section \ref{sec:second}
+\section{Second section}
+\end{document}
