@@ -1,0 +1,18 @@
+{
+  // Pass -outdir=build to latexmk so each root file's working directory
+  // gets a build/ folder for PDF + aux files (works with LaTeX Workshop).
+  "latex-workshop.latexmk.args": [
+    "-synctex=1",
+    "-interaction=nonstopmode",
+    "-file-line-error",
+    "-pdf",
+    "-outdir=build"
+  ],
+
+  // Let the extension know the output directory is named "build"
+  // (relative to the root .tex file's folder).
+  "latex-workshop.latex.outDir": "build",
+
+  // Show compiled PDF in an editor tab (optional, but handy)
+  "latex-workshop.view.pdf.viewer": "tab"
+}
